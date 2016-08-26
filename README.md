@@ -1,2 +1,0 @@
-# jonasmartinweb.com
-# mediaPlayer
