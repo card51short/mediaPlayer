@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Jonas' Media Player</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        
+    </head>
+    <body>
+        <div class="mediaPlayer">
+            <img src="images/martinPlayerLogo.png" id="logo">
+            <div id="tracks" class="trackList">
+                <h2 >Playlist</h2>
+                
+            </div>
+            <div class="playerControls">
+                <audio id="source" controls="controls" >
+                    <source src="" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="userControls" >
+                <img src="images/repeatButtonGreen.png" class="button" id="repeatBtn" >
+                <img src="images/repeatOneButton.png" class="button" id="repeatOneBtn">
+                <img src="images/shuffleButton.png" class="button" id="shuffleBtn">
+            </div>
+            <div class="trackInfo">
+                Track:<input type="text" id="track" disabled><br>
+                Length:<input type="text" id="length" disabled>
+            </div>
+            <input id="audio_file" type="file" accept=".mp3" />
+            
+        </div>
+        <script src="js/functions.js"></script>
+    </body>
+
+</html>
